@@ -53,7 +53,7 @@ ggplot(df, aes(x=X, y=Y)) + geom_point() +
 
 ```
 
-How about the reverse direction?
+What about if we have data in exponential space? What will happen if we do a log transform then?
 
 ```{r}
 set.seed(0)
